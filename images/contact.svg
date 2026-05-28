@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Groupe_32" data-name="Groupe 32" width="25.898" height="21.527" viewBox="0 0 25.898 21.527">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="25.898" height="21.527" fill="none" stroke="#f5efea" stroke-width="1.5"></rect>
+    </clipPath>
+  </defs>
+  <line id="Ligne_2" data-name="Ligne 2" y2="1.093" transform="translate(7.485 6.393)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <g id="Groupe_27" data-name="Groupe 27">
+    <g id="Groupe_26" data-name="Groupe 26" clip-path="url(#clip-path)">
+      <line id="Ligne_3" data-name="Ligne 3" y2="7.649" transform="translate(24.969 6.393)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+      <line id="Ligne_4" data-name="Ligne 4" x2="6.556" transform="translate(18.413 14.042)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+      <line id="Ligne_5" data-name="Ligne 5" x1="6.556" transform="translate(12.949 0.929)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+    </g>
+  </g>
+  <line id="Ligne_6" data-name="Ligne 6" y2="2.185" transform="translate(18.413 12.949)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <g id="Groupe_29" data-name="Groupe 29">
+    <g id="Groupe_28" data-name="Groupe 28" clip-path="url(#clip-path)">
+      <line id="Ligne_7" data-name="Ligne 7" y2="7.649" transform="translate(0.929 12.949)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+      <line id="Ligne_8" data-name="Ligne 8" x1="12.02" transform="translate(0.929 20.598)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+    </g>
+  </g>
+  <line id="Ligne_9" data-name="Ligne 9" x2="6.556" transform="translate(6.393 7.485)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <line id="Ligne_10" data-name="Ligne 10" transform="translate(5.3 14.042)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <line id="Ligne_11" data-name="Ligne 11" transform="translate(9.671 14.042)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <line id="Ligne_12" data-name="Ligne 12" transform="translate(14.042 14.042)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></line>
+  <g id="Groupe_31" data-name="Groupe 31">
+    <g id="Groupe_30" data-name="Groupe 30" clip-path="url(#clip-path)">
+      <path id="Tracé_63" data-name="Tracé 63" d="M94.714,9.714A5.461,5.461,0,0,0,89.25,4.25" transform="translate(-69.745 -3.321)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      <path id="Tracé_64" data-name="Tracé 64" d="M34.25,9.714A5.461,5.461,0,0,1,39.714,4.25" transform="translate(-26.765 -3.321)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      <path id="Tracé_65" data-name="Tracé 65" d="M4.25,39.714A5.461,5.461,0,0,1,9.714,34.25" transform="translate(-3.321 -26.765)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      <path id="Tracé_66" data-name="Tracé 66" d="M64.714,39.714A5.461,5.461,0,0,0,59.25,34.25" transform="translate(-46.301 -26.765)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      <path id="Tracé_67" data-name="Tracé 67" d="M64.714,69.25a5.461,5.461,0,0,1-5.464,5.464" transform="translate(-46.301 -54.116)" fill="none" stroke="#f5efea" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1252 @@
+
+/* ==========================================================================
+   1. POLICES TYPEKIT
+   ========================================================================== */
+@font-face {
+    font-family: "articulat-cf";
+    src: url("https://use.typekit.net/af/c8b55b/000000000000000077524f44/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),
+         url("https://use.typekit.net/af/c8b55b/000000000000000077524f44/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),
+         url("https://use.typekit.net/af/c8b55b/000000000000000077524f44/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
+}
+
+/* ==========================================================================
+   2. RESET & BASE
+   ========================================================================== */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    /* Pour le défilement fluide vers un encre (un hyperlien)*/
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "articulat-cf", sans-serif;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+hr {
+    width: 80px;
+    color: #ec9f53;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    color: #ec9f53;
+}
+
+li {
+    display: list-item;
+    color: #ec9f53;
+}
+
+/* ==========================================================================
+   3. TITRES
+   ========================================================================== */
+h1 {
+    font-family: "Playfair Display", Georgia, serif !important;
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    display: block;
+}
+
+h2, h3 {
+    font-family: "Playfair Display", Georgia, serif !important;
+}
+
+h4 {
+    color: rgb(195, 135, 80);
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+/* ==========================================================================
+   4. BOUTONS
+   ========================================================================== */
+.btn {
+    color: #fff;
+    padding: 7px 25px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    display: inline-flex;
+    line-height: 1.3em;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #C38750;
+    background: #C38750;
+    font-weight: 500;
+    border-radius: 31px;
+    min-height: 50px;
+    white-space: nowrap;
+}
+
+a.telephone {
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgb(245 239 234 / 54%);
+    box-shadow: inset 0px 0 0 0 #C38750;
+}
+
+/* ==========================================================================
+   5. MINITITRE
+   ========================================================================== */
+.minititre {
+    color: rgb(195, 135, 80);
+    display: block;
+    font-family: "articulat-cf", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
+    line-height: 25.5px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* ==========================================================================
+   6. HERO BANNER
+   ========================================================================== */
+.hero-banner {
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: rgb(1, 5,38);
+    background-repeat: repeat;
+    background-image: none;
+    height: 700px;
+}
+
+.hero {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    width: 80%;
+    margin: 0;
+    justify-content: space-between;
+   
+}
+
+.hero-left {
+    color: white;
+    padding-right: 60px;
+}
+
+.hero-left p {
+    font-size: 20px;
+    width: 100%;
+}
+/* ══ IMAGE FOND HERO ══ */
+#img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* ==========================================================================
+   7. SECTION À PROPOS
+   ========================================================================== */
+.text {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    color: white;
+}
+
+.text h2 {
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-weight: 700;
+    font-size: 37.5px;
+    line-height: 41.25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.text p {
+    line-height: 25.5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+.about-left {
+    padding: 40px 0 40px 20px ;
+}
+#conseil .col-lg-6.about-left {
+    padding-left: 45px !important;
+}
+/* Décale tout le bloc d'images vers la droite */
+#conseil .about-left {
+    margin-left: 90px !important; 
+}
+/* Rapprochement global du texte vers les images */
+#conseil .text {
+    margin-left: -120px !important; 
+    position: relative;
+    z-index: 10;
+}
+/* Réduit la largeur des paragraphes dans le bloc texte */
+#conseil .text p {
+    max-width: 650px; 
+    width: 100%;
+}
+#conseil h2 {
+    width: 450px;  
+
+}
+.img-1,
+.img-2 {
+    width: 200px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.img-2 , .img-1{
+    border-radius: 25px;
+    overflow: hidden;
+    height: 100%;
+    width: 200px;
+    height: 280px;
+    margin-left: 35px;
+  
+}
+.about-left .row {
+    overflow: visible !important;
+}
+.img-1 {
+    position: relative;
+    z-index: 1;
+    margin-top: -60px;
+    border-radius: 25px;
+    overflow: visible; 
+}
+
+.img-1 img {
+    border-radius: 25px; /* border-radius sur l'image directement */
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; 
+}
+.img-2{
+   position: relative;
+   z-index: 1;
+   top: -120px;  
+}
+.img-3 {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    top:750px; 
+}
+
+.img-3 img {
+    min-height: 376px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* ==========================================================================
+   8. SECTION TALVORA
+   ========================================================================== */
+.talvora {
+    text-align: left;
+    padding: 40px;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.talvora-left .talvora-logo img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.talvora-left .minititre {
+    color: rgb(195, 135, 80);
+    font-family: "articulat-cf", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.talvora-left .talvora-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 41.25px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.talvora-left p {
+    font-family: "articulat-cf", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #333333;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.talvora-rigth ul li {
+    font-family: "articulat-cf", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7em;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: 90%;
+    height: auto;
+    list-style-type: inherit;
+}
+
+.talvora-rigth ul li::marker {
+    color: #c38750;
+    font-size: 1.1em;
+}
+
+/* ==========================================================================
+   9. BANDEAU CITATION & GALERIE PLATS
+   ========================================================================== */
+.tag {
+    text-align: center;
+    margin: auto;
+}
+
+.citation {
+    font-family: "Playfair Display", Georgia, serif !important;
+    display: block;
+    font-size: 28px;
+    font-weight: 450;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.galerie {
+    font-family: "Playfair Display", Georgia, serif !important;
+    display: block;
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    mix-blend-mode: luminosity;
+    margin: 10px auto 0;
+    width: 100%;
+    color: rgb(225, 200, 166);
+}
+
+/* Galerie 3 plats sous le bandeau */
+/* Style spécifique pour la grande galerie */
+#galerie-plats-carousel {
+    padding: 20px 0;
+    background-color: transparent; 
+}
+
+#galerie-plats-carousel .splide__slide {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px; 
+}
+
+.galerie-img-grande {
+    width: 100%; 
+    height: 405px; 
+    object-fit: cover;
+    
+    border-radius: 12px; 
+    opacity: 0.8;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.galerie-img-grande {
+    display: block !important;
+    width: 100% !important;
+    height: 400px !important; 
+    object-fit: cover;
+}
+
+
+.splide__slide img {
+    max-width: 100%;
+}
+
+/* Effet au survol */
+.galerie-img-grande:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+/* ==========================================================================
+   10. SECTION CHEF PRIVÉ
+   ========================================================================== */
+.about-chef {
+    text-align: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.about-chef p,
+.about-chef h3,
+.about-chef strong {
+    color: #ffffff;
+}
+
+.about-chef hr {
+    color: #c38750;
+    width: 80px;
+    margin-left: 0;
+}
+
+#title-chef {
+    width: 390px !important;   
+    margin-right: 50px !important;
+    text-align: start !important;
+}
+ #contact{
+    margin-left: 1px;
+}
+/* ==========================================================================
+   11. FORMULAIRE
+   ========================================================================== */
+.formulaire {
+    background-color: rgb(215, 191, 169);
+    border-radius: 88px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 13px 26px 0px;
+    font-family: "articulat-cf", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 80px 60px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 869px;
+    margin: 0 auto;
+    height: auto;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+label,
+input::placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(1, 5, 38, 0.3);
+    border-radius: 0;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    border-bottom-color: #c38750;
+}
+
+.rgpd {
+    font-style: italic;
+}
+
+/* ==========================================================================
+   12. FOOTER
+   ========================================================================== */
+footer {
+    background-color: #041322;
+    padding: 50px 0;
+}
+
+footer ul li a,
+footer p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .btn {
+    width: fit-content;
+    min-width: 180px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .telephone {
+    padding: 6px 18px;
+    min-height: 40px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(245, 239, 234, 0.54);
+    background: transparent;
+    color: #fff;
+    min-width: 160px;
+}
+
+footer .telephone img {
+    width: 16px;
+    height: 16px;
+}
+
+footer .contacter {
+    padding: 10px 25px;
+    min-height: 50px;
+    font-size: 1rem;
+    background: #C38750;
+    border: 1px solid #C38750;
+    color: #fff;
+    min-width: 180px;
+}
+
+footer .contacter img {
+    width: 20px;
+    height: 18px;
+}
+
+/* ==========================================================================
+   13. CAROUSEL SPLIDE
+   ========================================================================== */
+#image-carousel {
+    padding: 40px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#image-carousel .splide__list {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+}
+
+#image-carousel .splide__slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+#image-carousel .splide__slide img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 8px;
+    filter: grayscale(0%);
+    opacity: 0.7;
+    cursor: pointer;
+    transition: filter 0.3s, opacity 0.3s, transform 0.2s;
+    display: block;
+}
+
+#image-carousel .splide__slide img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+#image-carousel .splide__pagination__page.is-active {
+    background: #C38750;
+}
+
+/* ==========================================================================
+   14. LIGHTBOX
+   ========================================================================== */
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-overlay.active {
+    display: flex;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content img {
+    max-width: 90vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    filter: grayscale(0%) !important;
+    opacity: 1 !important;
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background: #C38750;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    transition: background 0.2s;
+    line-height: 1;
+}
+
+.lightbox-close:hover {
+    background: #b8904e;
+}
+
+.lightbox-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #C38750;
+    border: none;
+    color: #fff;
+    font-size: 3rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    transition: background 0.2s;
+    line-height: 1;
+}
+
+.lightbox-arrow:hover {
+    background: #b8904e;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+/*===================================================
+RESPONSIVE
+=====================================================*/
+
+/* Header*/
+/*Small devices (landscape phones, 576px and up)*/
+/* Boutton à gauche et circulaire*/
+/* --- Style Mobile (max-width: 576px) --- */
+@media (max-width: 576px) {
+        body,html {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    /* 1. On force la ligne à ne jamais couper (no-wrap) */
+    header .row {
+        display: flex ;
+        flex-wrap: nowrap ; 
+        justify-content: flex-end ; /* Pousse tout vers la droite */
+        align-items: center ;
+    }
+
+    /* 2. Le Logo prend l'espace à gauche, les autres colonnes s'adaptent */
+    header .col-6:first-child { 
+        flex: 1 1 auto ; 
+        width: auto ; 
+    }
+
+    /* 3. On traite la Nav et la colonne Boutons comme un seul bloc compact */
+    header .col-6:nth-child(2),
+    header .col-3.bouton-header { 
+        width: auto ; 
+        padding: 0 ;
+        flex: 0 0 auto ; /* Empêche la réduction de taille */
+    }
+
+    /* 4. Alignement des boutons (Appel et Contact) */
+    header .bouton-header { 
+        display: flex ;
+        flex-direction: row ;
+        gap: 8px ; /* Espacement entre les deux boutons */
+        margin-top: 0 ;
+        order: 2; /* Positionne les boutons avant le burger si besoin */
+    }
+
+    /* 5. Style des boutons d'action */
+    header .btn.transpa, 
+    header .btn.contacter {
+        display: flex ;
+        width: 41px;
+        height: 41px ;
+        min-height: 41px ;
+        padding: 0 ;        
+        border-radius: 50% ;
+        justify-content: center ;
+        align-items: center;
+        margin: 0 ;
+        border: 1px solid #fff ;
+    }
+
+    header .btn strong {
+        display: none ;
+    }
+
+    header .btn img {
+        height: 20px;
+        width: auto;
+    }
+
+    /* 6. Style du Toggler (Burger) */
+    header .navbar {
+        order: 3; /* Le burger sera le dernier à droite */
+        margin-left: 8px ; /* Espacement entre le bloc boutons et le burger */
+    }
+
+    header .navbar-toggler {
+        display: flex ;
+        width: 41px;
+        height: 41px ;
+        min-height: 41px ;
+        border: 1px solid #fff ;
+        border-radius: 50% ;
+        justify-content: center ;
+        align-items: center ;
+        padding: 0 ;
+    }
+    /*SECTION : CHEF PRIVE*/
+    #img-bg{
+        box-sizing:border-box;
+        color:rgb(1, 5, 38);
+        display: block;
+        font-family: "articulat-cf", sans-serif;
+        font-size:15px;
+        font-weight:300;
+        height:570px;
+        object-fit:cover;
+        overflow-x:clip;
+        overflow-y:clip;
+        position:absolute;
+        right:0px;
+        width:423px;
+
+    }
+  
+   /* ══ HERO BANNER ══ */
+
+    /* Hauteur réduite sur mobile */
+    .hero-banner {
+        height: 570px ;
+    }
+    #title-logan{
+       margin-right: 10px;
+       height: 27px;
+       width: 432px;
+       padding-right: 13rem;
+    }
+    /* Repositionnement du bloc hero */
+    .hero {
+        left: 50% ;
+        top: 45% ;
+        transform: translate(-50%, -50%) ;
+        width: 90% ;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right:10px;
+        position: relative;
+        z-index: 0;
+    }
+    
+    /* Colonne gauche : texte */
+    .hero-left {
+        padding-right: 0 ;
+        width: 100% ;
+    }
+
+    /* Logo "Logan Laug" SVG réduit */
+    #Logan-laug {
+        width: 220px ;
+        height: auto ;
+    }
+
+    /* H1 réduit */
+    .hero-banner h1 {
+        font-size: 28px ;
+        line-height: 1.2 ;
+        margin-top: 10px ;
+        margin-bottom: 10px ;
+        text-align: start;
+    }
+
+    /* Sous-titre */
+    .hero-left p {
+        font-size: 14px ;
+        margin-right: 30px;
+        padding-right: 30px;
+    }
+
+    /* Bouton Contact */
+    .hero-left .btn.contacter {
+        min-height: 42px ;
+        padding: 15px 20px ;
+        font-size: 14px;
+        font-size: none;
+    }
+
+    /* Colonne droite : image engagement cachée sur mobile */
+    .hero-right {
+        display: none ;
+    }
+    /* ==========================================================================
+   VERSION RESPONSIVE MOBILE :  A PROPOS
+   ========================================================================== */
+
+/* Structure globale de la section */
+#conseil {
+    padding: 20px 0 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#conseil .container-fluid {
+    padding: 0;
+}
+
+/* On force la row et ses colonnes à s'aligner au bord gauche absolu */
+#conseil .row {
+    flex-direction: column !important;
+    align-items: flex-start !important; 
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Le conteneur d'images : 
+   On vire le padding-left de Bootstrap (ps-5) qui décalait tout sur mobile,
+   et on applique une marge exacte de 16px.
+*/
+#conseil .about-left {
+    position: relative;
+    z-index: 5;
+    height: 380px; 
+    width: 100%;
+    max-width: 320px; 
+    margin: 10px 0 30px 16px !important; 
+    padding-left: 0 !important; /* Supprime le ps-5 du HTML qui cassait l'alignement */
+    padding-right: 0 !important;
+}
+
+/* Remplissage fluide des images internes */
+.img-1 img, .img-2 img, .img-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Image 1 : En arrière-plan sur la gauche, calée à 0 */
+.img-1 {
+    position: absolute;
+    width: 130px;  
+    height: 130px; 
+    top: 60px; 
+    left: 0 !important;
+    z-index: 1;
+}
+
+/* Image 2 : En bas à gauche */
+.img-2 {
+    position: absolute;
+    width: 140px;  
+    height: 200px; 
+    top: 160px;
+    left: 10px !important;
+    z-index: 2;
+}
+
+/* Image 3 : Tout en haut (top: 0), sur le bord droit, superposée au premier plan */
+.img-3 {
+    position: absolute;
+    width: 180px;  
+    height: 260px; 
+    top: 0; 
+    right: 0 !important;
+    z-index: 3;
+}
+
+/* LE TEXTE : Calé lui aussi avec un padding de 16px pour s'aligner avec les images */
+#conseil .text {
+    padding: 20px 16px !important; 
+    margin-left: 0 !important; 
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#conseil .text h2 {
+    font-size: 26px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+#conseil .text p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    width: 100% !important;
+    max-width: 100% !important; 
+}
+
+#conseil .text .minititre {
+    width: 100% !important;
+}
+/*SECTION 3 : TALVORA */
+
+.talvora {
+    padding: 20px 16px;
+}
+.talvora-logo img{
+   margin: auto;
+}
+
+.talvora .row {
+    flex-direction: column;
+}
+
+.talvora-left {
+    text-align: start;
+}
+
+.talvora-left .talvora-logo img {
+    width: 180px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.talvora-left .talvora-title {
+    font-size: 24px;
+    line-height: 1.3;
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.talvora-left p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.talvora-rigth {
+    padding: 0 16px;
+    text-align: left;
+}
+
+.talvora-rigth .img-4 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.talvora-rigth ul {
+    padding-inline-start: 20px;
+}
+
+.talvora-rigth ul li {
+    font-size: 13px;
+    width: 100%;
+}
+
+.talvora-rigth .btn {
+    display: flex;
+    margin: 10px auto;
+    width: fit-content;
+    font-size: 13px;
+    white-space: normal;
+    text-align: center;
+}
+
+/*SECTION 4 : CITATION & GALERIE */
+
+.citation {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 16px;
+    max-width: 100%;
+}
+
+.galerie {
+    font-size: 32px;
+    line-height: 1.2;
+    padding: 0 10px;
+}
+
+.galerie-img-grande {
+    height: 220px;
+    border-radius: 8px;
+}
+
+/*SECTION 5 : CHEF PRIVÉ */
+
+.about-resto-images {
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-resto-images img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h4 {
+    font-size: 16px;
+    padding: 0 12px;
+    margin-top: 12px;
+}
+
+.about-chef {
+    padding: 20px 16px;
+    text-align: center;
+}
+
+.about-chef .img-fluid.mb-3 {
+    display: block;
+    margin: 0 auto 12px auto;
+    max-width: 140px;
+}
+
+.about-chef .minititre {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about-chef h2 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+   .about-chef hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-chef p {
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.about-chef .btn.contacter {
+    margin: 16px auto 0 auto;
+    display: flex;
+    width: fit-content;
+}
+
+/* SECTION 6 : FORMULAIRE */
+
+.formulaire {
+    border-radius: 30px;
+    padding: 40px 20px;
+    max-width: 100%;
+    width: 95%;
+    padding-bottom: 15px;
+}
+
+.formulaire h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.formulaire .minititre {
+    text-align: center;
+}
+
+.formulaire .row {
+    flex-direction: column;
+}
+
+.formulaire label {
+    font-size: 13px;
+}
+
+.formulaire .form-control {
+    font-size: 13px;
+}
+
+.formulaire .col-md-3,
+.formulaire .col-md-6 {
+    width: 100%;
+    text-align: center;
+}
+
+.formulaire .btn.contacter {
+    margin: 10px auto;
+    display: flex;
+    width: fit-content;
+}
+
+/* En ciblant main puis l'id, le navigateur applique obligatoirement tes règles */
+main section#form-contact {
+    padding-bottom: 80px !important; 
+    margin-bottom: 80px !important;
+}
+
+main section#form-contact div.container.formulaire {
+    padding-bottom: 60px !important;
+}
+
+
+/* SECTION 7 : CAROUSEL PARTENAIRES  */
+
+#image-carousel {
+    padding: 20px 0;
+}
+
+#image-carousel h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#image-carousel .minititre {
+    text-align: center;
+}
+
+#image-carousel .splide__slide img {
+    height: 80px;
+    object-fit: contain;
+}
+
+
+/* Footer**/
+
+footer {
+    padding: 30px 0;
+}
+
+footer .row {
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer .col-12 {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    padding-inline-start: 0;
+    list-style: none;
+    text-align: start;
+}
+
+footer ul li {
+    color: #fff;
+    margin-bottom: 6px;
+ 
+}
+.foot-bttn{
+    padding-right: 200px;
+}
+.legale p{
+     text-align: start;
+}
+footer .btn {
+    margin: 6px auto;
+    min-width: 160px;
+    display: flex;
+    text-align: start;
+}
+
+footer .d-flex.flex-column {
+    align-items: center;
+     text-align: start;
+} 
+    
+}
