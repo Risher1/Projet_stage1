@@ -1123,6 +1123,25 @@ h4 {
     display: flex;
     width: fit-content;
 }
+ /* --- Style pour le bloc partenariat sur Mobile --- */
+.bloc-partenariat {
+    display: flex !important;
+   
+    flex-direction: column-reverse !important; 
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+}
+
+.bloc-partenariat img {
+    /* Taille raisonnable et responsive sur mobile */
+    max-height: 250px !important; 
+    width: 100% !important;
+    max-width: 320px; 
+    object-fit: cover !important;
+    border-radius: 25px !important;
+}
+
 
 /* SECTION 6 : FORMULAIRE */
 
@@ -1237,11 +1256,11 @@ footer ul li {
 .legale p{
      text-align: start;
 }
+
 footer .btn {
-    margin: 6px auto;
+    margin: 6px auto 6px 0; 
     min-width: 160px;
-    display: flex;
-    text-align: start;
+    display: inline-flex;   
 }
 
 footer .d-flex.flex-column {
